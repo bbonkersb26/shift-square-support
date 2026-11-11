@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="551" height="64" viewBox="0 0 551 64" role="img" aria-labelledby="title">
+  <title id="title">Shift Square</title>
+<path fill="#F5F1E8" fill-rule="evenodd" transform="translate(0 4)" d="M10 0h34v11H15l-4 4v5l4 3h19l10 10v13L34 56H0V45h29l4-4v-4l-4-3H10L0 24V10z"/>
+  <path fill="#F5F1E8" fill-rule="evenodd" transform="translate(53 4)" d="M0 0h11v22h22V0h11v56H33V33H11v23H0z"/>
+  <path fill="#F5F1E8" fill-rule="evenodd" transform="translate(106 4)" d="M0 0h11v56H0z"/>
+  <path fill="#F5F1E8" fill-rule="evenodd" transform="translate(126 4)" d="M0 0h44v11H11v12h27v11H11v22H0z"/>
+  <path fill="#F5F1E8" fill-rule="evenodd" transform="translate(179 4)" d="M0 0h44v11H28v45H17V11H0z"/>
+  <path fill="#EAF47A" fill-rule="evenodd" transform="translate(242 4)" d="M10 0h34v11H15l-4 4v5l4 3h19l10 10v13L34 56H0V45h29l4-4v-4l-4-3H10L0 24V10z"/>
+  <path fill="#EAF47A" fill-rule="evenodd" transform="translate(295 4)" d="M10 0h24l10 10v31l-6 6 6 6-7 7-7-7H10L0 43V10z M11 13v27l3 3h8l-5-5 7-7 9 9V13l-3-3H14z"/>
+  <path fill="#EAF47A" fill-rule="evenodd" transform="translate(348 4)" d="M0 0h11v42l4 4h14l4-4V0h11v46L34 56H10L0 46z"/>
+  <path fill="#EAF47A" fill-rule="evenodd" transform="translate(401 4)" d="M0 56V12L12 0h20l12 12v44H33V34H11v22z M11 14v10h22V14l-3-3H14z"/>
+  <path fill="#EAF47A" fill-rule="evenodd" transform="translate(454 4)" d="M0 56V0h33l11 11v16L33 38l13 18H32L20 39h-9v17z M11 11v17h17l5-5v-7l-5-5z"/>
+  <path fill="#EAF47A" fill-rule="evenodd" transform="translate(507 4)" d="M0 0h44v11H11v11h27v11H11v12h33v11H0z"/>
+</svg>
