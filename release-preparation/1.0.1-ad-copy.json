@@ -1,0 +1,68 @@
+{
+  "status": "PREPARED_ONLY_NOT_PUSHED_OR_DEPLOYED",
+  "preparedAtUTC": "2026-11-21T23:00:28.153209+00:00",
+  "app": "Shift Square",
+  "targetVersion": "1.0.1",
+  "sourceRepository": "https://github.com/bbonkersb26/shift-square-support",
+  "baseCommit": "da6f091058d2bdf1e3968d46c6cd820f75d7c049",
+  "preparedBranch": "agent/prepare-1-0-1-ads",
+  "sourceWorktree": "C:/Users/baker/Documents/Codex/2026-11-10/ok-x20/work/shift-square-support-render",
+  "preparedWorktree": "C:\\Users\\baker\\Documents\\Codex\\2026-11-10\\ok-x20\\work\\shift-square-support-1-0-1-prepared",
+  "render": {
+    "serviceName": "shift-square-support",
+    "publicURL": "https://shift-square-support.onrender.com/",
+    "blueprint": "render.yaml",
+    "runtime": "static",
+    "buildCommand": "true",
+    "publishPath": "./dist",
+    "knownGitBranch": "main",
+    "liveAutoDeploySetting": "Not reverified; do not push until release is authorized"
+  },
+  "releaseHold": [
+    "Preserve currently served 1.0.0 ads-disabled copy until the corresponding 1.0.1 release.",
+    "Complete actual native banner and result-video earned/dismissed/relaunch evidence, final Claude review, provider readiness, exact signed-artifact and Apple privacy/disclosure checks.",
+    "Before publishing, set the policy updated date to the actual publication date if different."
+  ],
+  "deploymentPath": [
+    "Review this isolated branch and version-scoped copy against final approved 1.0.1 behavior.",
+    "At the authorized release boundary, merge/cherry-pick the prepared website commit into this website repository main; push only then.",
+    "Use the existing Render shift-square-support static service linked to this repository to deploy that main commit; do not create a new host.",
+    "Read back root/privacy/support URLs and verify served bytes match that deployed commit."
+  ],
+  "existingPreparedEquivalent": "App repository store/ad-supported-update.json already prepares App Store wording; no existing website branch found.",
+  "changedFiles": [
+    "dist/index.html",
+    "dist/privacy/index.html",
+    "dist/support/index.html"
+  ],
+  "unchanged": [
+    "dist/app-ads.txt",
+    "dist/style.css",
+    "dist/wordmark.svg",
+    "render.yaml",
+    "app runtime and save formats"
+  ],
+  "liveReadback": [
+    {
+      "url": "https://shift-square-support.onrender.com/",
+      "httpStatus": 200,
+      "servedSHA256": "bbaa802d21e259a6b4a67f5617635a8fdd669c5f4d18bf8888393cbfc1b67745",
+      "matchesCurrentSourceBase": true,
+      "preparedSHA256": "f2f7530aa9f2a4b8ec90b158b635e21bf4caf99cf6524d9caf924f0397234dfe"
+    },
+    {
+      "url": "https://shift-square-support.onrender.com/privacy/",
+      "httpStatus": 200,
+      "servedSHA256": "56a2a6debf3e2bdef6d5f208181a00415f67514ae59d36651f7eadf3e369d6d3",
+      "matchesCurrentSourceBase": true,
+      "preparedSHA256": "433ffc906520ef828701eb3e6ecebba77160a4d2ac2dd04d7c6ff94017076a53"
+    },
+    {
+      "url": "https://shift-square-support.onrender.com/support/",
+      "httpStatus": 200,
+      "servedSHA256": "6801cb890212717793844b8c562208a01893eda3dffd3159719bdccf55f28567",
+      "matchesCurrentSourceBase": true,
+      "preparedSHA256": "e8836808d110456700b7e6258bb1ab8d0cb4854357e3f11b45f03ecaac967de2"
+    }
+  ]
+}
