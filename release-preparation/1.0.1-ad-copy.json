@@ -20,7 +20,7 @@
   },
   "releaseHold": [
     "Preserve currently served 1.0.0 ads-disabled copy until the corresponding 1.0.1 release.",
-    "Complete actual native banner and result-video earned/dismissed/relaunch evidence, final Claude review, provider readiness, exact signed-artifact and Apple privacy/disclosure checks.",
+    "Confirm exact 1.0.1 native banner receive/impression, modal and save integrity, rewarded-video offers/requests disabled, earned-reward recovery retained, final Claude review, provider readiness, signed-artifact and Apple disclosure checks.",
     "Before publishing, set the policy updated date to the actual publication date if different."
   ],
   "deploymentPath": [
@@ -29,7 +29,7 @@
     "Use the existing Render shift-square-support static service linked to this repository to deploy that main commit; do not create a new host.",
     "Read back root/privacy/support URLs and verify served bytes match that deployed commit."
   ],
-  "existingPreparedEquivalent": "App repository store/ad-supported-update.json already prepares App Store wording; no existing website branch found.",
+  "existingPreparedEquivalent": "App repository store/ad-supported-update.json is being aligned to the same banner-only 1.0.1 release. Neither set of prepared copy authorizes deployment.",
   "changedFiles": [
     "dist/index.html",
     "dist/privacy/index.html",
@@ -48,21 +48,24 @@
       "httpStatus": 200,
       "servedSHA256": "bbaa802d21e259a6b4a67f5617635a8fdd669c5f4d18bf8888393cbfc1b67745",
       "matchesCurrentSourceBase": true,
-      "preparedSHA256": "f2f7530aa9f2a4b8ec90b158b635e21bf4caf99cf6524d9caf924f0397234dfe"
+      "preparedSHA256": "35d5ebd7c8f397f174505c01fbeefda3aa44217a3a19829e761993ba18c16649"
     },
     {
       "url": "https://shift-square-support.onrender.com/privacy/",
       "httpStatus": 200,
       "servedSHA256": "56a2a6debf3e2bdef6d5f208181a00415f67514ae59d36651f7eadf3e369d6d3",
       "matchesCurrentSourceBase": true,
-      "preparedSHA256": "433ffc906520ef828701eb3e6ecebba77160a4d2ac2dd04d7c6ff94017076a53"
+      "preparedSHA256": "211bef28a26dbb52a8f1d91fa28bb137995777d1ec3c663180ee635166cf0555"
     },
     {
       "url": "https://shift-square-support.onrender.com/support/",
       "httpStatus": 200,
       "servedSHA256": "6801cb890212717793844b8c562208a01893eda3dffd3159719bdccf55f28567",
       "matchesCurrentSourceBase": true,
-      "preparedSHA256": "e8836808d110456700b7e6258bb1ab8d0cb4854357e3f11b45f03ecaac967de2"
+      "preparedSHA256": "70aa01ee22365deaccbae216aa9daab2649060201b705042bb55d5637d6f0c4c"
     }
-  ]
+  ],
+  "bannerOnlyRevisionAtUTC": "2026-11-22T02:45:05.977729+00:00",
+  "releaseAdvertising": "Gameplay top banners only. Rewarded-video offers and requests disabled in 1.0.1; normal earned Sparks, existing verified Plus included bonuses, and saved progress retained.",
+  "liveReadbackNote": "Historical readback retained from initial preparation; no public page was changed or re-read by this banner-only copy revision."
 }
