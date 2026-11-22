@@ -69,5 +69,28 @@
   "releaseAdvertising": "Gameplay top banners only. Rewarded-video offers and requests disabled in 1.0.1; normal earned Sparks, existing verified Plus included bonuses, and saved progress retained.",
   "liveReadbackNote": "Historical readback retained from initial preparation; no public page was changed or re-read by this banner-only copy revision.",
   "resultSharingCopyUpdatedUTC": "2026-11-22T20:39:09.890890+00:00",
-  "resultSharing": "On-device result image and system share sheet; native image/sheet validation pending; no publication performed."
+  "resultSharing": "On-device result image and system share sheet. Release validation and signed-artifact evidence are tracked by the app release task; this website preparation performs no native validation or publication.",
+  "publicationPreparation": {
+    "updatedUTC": "2026-11-22T23:38:07.838274+00:00",
+    "policyDate": "2026-11-22",
+    "appUploadBuildID": "6b037c38",
+    "appUploadSource": "3e2fa28",
+    "uploadState": "Running per parent task; not independently checked by website preparation",
+    "remoteMainObserved": "da6f091058d2bdf1e3968d46c6cd820f75d7c049",
+    "remoteCheck": "git ls-remote origin refs/heads/main",
+    "deploymentState": "Not pushed or deployed. Root will publish after signed evidence.",
+    "preparedWorktreeSHA256": {
+      "dist/index.html": "35d5ebd7c8f397f174505c01fbeefda3aa44217a3a19829e761993ba18c16649",
+      "dist/support/index.html": "1563fd0370f1d7a2d3fd51b51d65fb802fccee4b5bb29a33d62a329aa626d134",
+      "dist/privacy/index.html": "9deb5ebde2ad668d445338ef7e938021ee8c9ed3fae64cd8ac2abacbc6b59d98",
+      "dist/app-ads.txt": "d116bc72d770fef37f2cdf9448ead11ece5c4cb3dfbfbf444b6bb9a67201ff77"
+    },
+    "hashNote": "The Windows worktree has CRLF line endings. Public Git/Render text uses LF; use preparedGitContentSHA256 for deployed-byte comparison.",
+    "preparedGitContentSHA256": {
+      "dist/index.html": "35d5ebd7c8f397f174505c01fbeefda3aa44217a3a19829e761993ba18c16649",
+      "dist/support/index.html": "1563fd0370f1d7a2d3fd51b51d65fb802fccee4b5bb29a33d62a329aa626d134",
+      "dist/privacy/index.html": "9deb5ebde2ad668d445338ef7e938021ee8c9ed3fae64cd8ac2abacbc6b59d98",
+      "dist/app-ads.txt": "b076a5a80808efd911abc672f149b3118982f59f4c60fee479b9266cf930d10f"
+    }
+  }
 }
